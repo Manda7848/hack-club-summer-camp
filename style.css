@@ -1,3 +1,15 @@
+:root{
+
+/* 
+    it stores stuff
+    variables are written like this */
+    
+    --light-- : blue;
+}
+
+
+
+
 body {
     text-align: center;
     font-family: monospace;
@@ -5,6 +17,47 @@ body {
     background-color: black;
 }
 
+
+
+header {
+
+    display: flex;
+    gap:10px;
+
+    font-size: 1.5rem;
+        font-style: bold;
+    text-align: right;
+    align-items: center;
+    background-color: white;
+    color: black;
+justify-content: center;
+    width: 100%;
+
+margin-bottom: 30px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header > a {
+color: black;
+text-align: center;
+font-style: bold;
+margin-bottom: 40px;
+align-self: center;
+/* padding-left:150px; */
+padding-top: 20px;
+}
+
+header > a:hover {
+
+
+text-decoration:  line-through;
+box-shadow: border-box 3px 5px;
+
+text-shadow: 2px 2px  2px black;
+
+}
 
 a {
     text-decoration: none;
